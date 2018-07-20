@@ -1,0 +1,118 @@
+@font-face {
+    font-family: Asap;
+    src: url('../../assets/fonts/Asap/Asap-Regular.ttf');
+}
+
+html, body {
+    width: 100%;
+    min-height: 100vh;
+}
+
+
+
+.main-header {
+    flex: 1;
+}
+
+.main-header img {
+    width: 4%;
+    margin-left: 15%;
+}
+
+.main-header ul {
+    width: 30%;
+    margin-right: 15%;
+    list-style-type: none;
+    //align-self: flex-end;
+}
+
+.main-header ul li {
+    display: inline;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.main-header ul li a {
+    font-family: Asap;
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: black;
+}
+
+.main-header ul li a:hover {
+    color: black;
+}
+
+.header-brand-image {
+    width: 50% !important;
+}
+
+.margin-left-brand {
+    margin-left: 8%;
+}
+
+@media screen and (max-width: 768px) {
+    .hidden-desktop {
+        display: none;
+    }
+
+    .header-brand-image-mobile {
+        width: 40% !important;
+    }
+
+    .first-image-mobile {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+    }
+
+    .first-image-mobile img {
+        width: 90%;
+        padding-top: 6%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .main-wrapper {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        min-height: 100vh;
+    }
+
+    .main-wrapper > div {
+        flex: 1;
+
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .first-image {
+        /*display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        flex: 1;
+        margin-top: -5%;*/
+        align-items: center;
+
+    }
+
+    .first-image img {
+        width: 65%;
+    }
+
+    .ilustracao {
+        align-items: center;
+        margin-top: 3%;
+        height: 100vh;
+    }
+
+    .carousel-image {
+        width: 65% !important;
+    }
+}
