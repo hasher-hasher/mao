@@ -1,7 +1,7 @@
 // ScrollReveal
-window.sr = ScrollReveal({mobile: true});
+/*window.sr = ScrollReveal({mobile: true});
 // sr.reveal('#ilustracao');
-sr.reveal('.show');
+sr.reveal('.show');*/
 
 // Vegas
 /*$(".ilustracao").vegas({
