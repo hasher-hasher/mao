@@ -8,11 +8,10 @@ $(".ilustracao").vegas({
     // shuffle: true,
     transition: 'fade',
     cover: false,
-    backgroundImage: 'assets/images/615b0860876841.5a5ca4669061a.jpg',
     slides: [
-        { src: 'assets/images/615b0860876841.5a5ca4669061a.jpg', color: '#33d8e8' },
-        { src: 'assets/images/bbb06160876735.5a5ca3b85b443.jpg', color: '#ea65a3' },
-        { src: 'assets/images/b2410760876735.5a5ca3b85b827.jpg', color: '#ea8826' },
+        { src: 'assets/images/615b0860876841.5a5ca4669061aa.jpg', color: '#33d8e8' },
+        { src: 'assets/images/bbb06160876735.5a5ca3b85b443a.jpg', color: '#ea65a3' },
+        { src: 'assets/images/b2410760876735.5a5ca3b85b827a.jpg', color: '#ea8826' },
     ]
 });
 
