@@ -129,6 +129,39 @@ html, body {
     font-size: 1rem !important;
 }
 
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-list {
+    display: inline;
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+.footer-list li a {
+    margin: 0px 10px;
+}
+
+.allrights {
+    font-family: Asap;
+    font-size: 0.8rem;
+}
+
+.insta-link:hover {
+    color: #cd486b;
+}
+
+.face-link:hover {
+color: #4c68d7;
+}
+
+.behance-link:hover {
+    color: #0057ff;
+}
+
 @media screen and (max-width: 768px) {
     .hidden-desktop {
         display: none;
@@ -212,7 +245,18 @@ html, body {
         width: 65%;
     }
 
+    .allrights-mobile {
+        font-size: 0.6rem;
+    }
 
+    .text-mobile-center {
+        text-align: center !important;
+    }
+
+}
+
+.social-links {
+    color: black;
 }
 
 @media screen and (min-width: 768px) {
