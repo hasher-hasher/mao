@@ -3,12 +3,14 @@
     src: url('fonts/Asap/Asap-Regular.ttf');
 }
 
+* {
+    text-transform: uppercase;
+}
+
 html, body {
     width: 100%;
     min-height: 100vh;
 }
-
-
 
 .main-header {
     flex: 1;
@@ -76,7 +78,7 @@ html, body {
 
 .exposicoes h3 {
     font-family: Asap;
-    font-size: 3.5rem;
+    font-size: 2.8rem;
     margin-bottom: 55px;
     margin-top: 45px;
     text-align: center;
@@ -121,6 +123,10 @@ html, body {
     font-size: 3.5rem;
     margin-bottom: 55px;
     margin-top: 75px;
+}
+
+.nav-list li a {
+    font-size: 1rem !important;
 }
 
 @media screen and (max-width: 768px) {
@@ -244,7 +250,7 @@ html, body {
         margin-top: 75px;
         text-align: center;
         font-family: Asap;
-        font-size: 3.6rem;
+        font-size: 2.8rem;
         margin-bottom: 50px;
     }
 
@@ -268,12 +274,12 @@ html, body {
     }
 
     .sobre h3 {
-        font-size: 3.5rem;
+        font-size: 2.8rem;
         color: white;
         margin-bottom: 55px;
     }
 
     .center-list-items {
-        margin-right: 46% !important;
+        margin-right: 24% !important;
     }
 }
