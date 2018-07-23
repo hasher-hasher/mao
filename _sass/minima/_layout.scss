@@ -206,9 +206,7 @@ html, body {
         width: 65%;
     }
 
-    .center-list-items {
-        margin-right: 50%;
-    }
+
 }
 
 @media screen and (min-width: 768px) {
@@ -273,5 +271,9 @@ html, body {
         font-size: 3.5rem;
         color: white;
         margin-bottom: 55px;
+    }
+
+    .center-list-items {
+        margin-right: 46% !important;
     }
 }
