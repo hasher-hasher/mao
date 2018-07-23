@@ -1,9 +1,10 @@
 // ScrollReveal
-window.sr = ScrollReveal({reset: true, mobile: true});
-sr.reveal('#ilustracao');
+window.sr = ScrollReveal({mobile: true});
+// sr.reveal('#ilustracao');
+sr.reveal('.show');
 
 // Vegas
-$(".ilustracao").vegas({
+/*$(".ilustracao").vegas({
     timer: false,
     // shuffle: true,
     transition: 'fade',
@@ -13,7 +14,7 @@ $(".ilustracao").vegas({
         { src: 'assets/images/bbb06160876735.5a5ca3b85b443a.jpg', color: '#ea65a3' },
         { src: 'assets/images/b2410760876735.5a5ca3b85b827a.jpg', color: '#ea8826' },
     ]
-});
+});*/
 
 // Smooth Scroll
 // Select all links with hashes

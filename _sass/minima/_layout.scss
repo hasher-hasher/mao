@@ -56,32 +56,40 @@ html, body {
 }
 
 .murais {
-    padding-top: 8%;
+    //padding-top: 8%;
     background-color: black;
 }
 
 .murais h3 {
     font-family: Asap;
-    font-size: 3.5rem;
+    font-size: 3rem;
     text-align: center;
-    margin-bottom: 5%;
+    margin-bottom: 55px;
     color: white;
+    margin-top: 75px;
 }
 
 .exposicoes {
-    height: 100vh;
-    padding: 6% 0px;
+    //height: 100vh;
+    //padding-top: 75px;
 }
 
 .exposicoes h3 {
     font-family: Asap;
     font-size: 3.5rem;
+    margin-bottom: 55px;
+    margin-top: 45px;
+    text-align: center;
 }
 
 .image-exposicoes p {
     font-family: Asap;
     font-size: 2rem;
     text-align: center;
+}
+
+.image-exposicoes img {
+    width: 65%;
 }
 
 .sobre {
@@ -102,14 +110,17 @@ html, body {
 }
 
 .contato {
-    padding: 6% 15%;
+    padding: 0% 15%;
+    height: 100vh;
+    display: block !important;
 }
 
 .contato h3 {
     text-align: center;
     font-family: Asap;
     font-size: 3.5rem;
-    margin-bottom: 50px;
+    margin-bottom: 55px;
+    margin-top: 75px;
 }
 
 @media screen and (max-width: 768px) {
@@ -125,6 +136,7 @@ html, body {
         display: flex;
         align-items: center;
         justify-content: center;
+        height: 75vh;
     }
 
     .first-image-mobile img {
@@ -133,31 +145,40 @@ html, body {
     }
 
     .ilustracao-mobile {
-        align-items: center;
+        //align-items: center;
         //margin-top: 3%;
-        height: 100vh;
+        //height: 100vh;
+    }
+
+    .ilustracao-mobile h3 {
+        font-family: Asap;
+        font-size: 2.5rem;
+        text-align: center;
+        margin-top: 45px;
+        margin-bottom: 25px;
     }
 
     .murais-mobile {
-        padding-top: 12%;
+        padding-top: 1px;
         background-color: black;
     }
 
     .murais-mobile h3 {
-        font-size: 2.8rem;
+        margin-top: 45px;
+        font-size: 2.5rem;
     }
 
     .exposicoes-mobile {
-        height: auto;
-        padding-top: 12%;
+        //padding-top: 12%;
     }
 
     .exposicoes-mobile h3 {
-        font-size: 2.8rem;
+        font-size: 2.5rem;
     }
 
     .sobre-mobile {
-        padding-top: 12%;
+        padding-top: 75px;
+        padding-bottom: 75px;
     }
 
     .sobre-mobile p {
@@ -173,6 +194,16 @@ html, body {
     .img-sobre-mobile {
         width: 100%;
         margin-bottom: 15px;
+    }
+
+    .image-exposicoes-mobile p {
+        font-family: Asap;
+        font-size: 1.8rem;
+        text-align: center;
+    }
+
+    .image-exposicoes-mobile img {
+        width: 65%;
     }
 }
 
@@ -202,9 +233,17 @@ html, body {
     }
 
     .ilustracao {
-        align-items: center;
-        margin-top: 3%;
-        height: 100vh;
+        //align-items: center;
+        //margin-top: 3%;
+        //height: 100vh;
+    }
+
+    .ilustracao h3 {
+        margin-top: 75px;
+        text-align: center;
+        font-family: Asap;
+        font-size: 3.6rem;
+        margin-bottom: 50px;
     }
 
     .carousel-image {
@@ -223,12 +262,12 @@ html, body {
     }
 
     .sobre {
-        padding-top: 6%;
+        padding: 75px 0px;
     }
 
     .sobre h3 {
         font-size: 3.5rem;
         color: white;
-        margin-bottom: 45px;
+        margin-bottom: 55px;
     }
 }
