@@ -8,16 +8,39 @@
         <div class="collapse navbar-collapse" style="justify-content: flex-end" id="navbarSupportedContent">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link" href="#ilustracao">Ilustrações</a>
+                    {% if page.title == "The Hunt" %}
+                        <a class="nav-link" href="{{site.url}}{{site.baseurl}}/#ilustracao">Ilustrações</a>
+                    {% else %}
+                        <a class="nav-link" href="#ilustracao">Ilustrações</a>
+                    {% endif %}
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Murais</a>
+                    {% if page.title == "The Hunt" %}
+                    <a class="nav-link" href="{{site.url}}{{site.baseurl}}/#murais">Murais</a>
+                    {% else %}
+                    <a class="nav-link" href="#murais">Murais</a>
+                    {% endif %}
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Sobre</a>
+                    {% if page.title == "The Hunt" %}
+                    <a class="nav-link" href="{{site.url}}{{site.baseurl}}/#exposicoes">Exposições</a>
+                    {% else %}
+                    <a class="nav-link" href="#exposicoes">Exposições</a>
+                    {% endif %}
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Contato</a>
+                    {% if page.title == "The Hunt" %}
+                    <a class="nav-link" href="{{site.url}}{{site.baseurl}}/#sobre">Sobre</a>
+                    {% else %}
+                    <a class="nav-link" href="#sobre">Sobre</a>
+                    {% endif %}
+                </li>
+                <li class="nav-item">
+                    {% if page.title == "The Hunt" %}
+                    <a class="nav-link" href="{{site.url}}{{site.baseurl}}/#contato">Contato</a>
+                    {% else %}
+                    <a class="nav-link" href="#contato">Contato</a>
+                    {% endif %}
                 </li>
             </ul>
         </div>

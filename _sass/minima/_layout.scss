@@ -51,6 +51,67 @@ html, body {
     margin-left: 8%;
 }
 
+.padding-murais {
+    margin: 4% 1px;
+}
+
+.murais {
+    padding-top: 8%;
+    background-color: black;
+}
+
+.murais h3 {
+    font-family: Asap;
+    font-size: 3.5rem;
+    text-align: center;
+    margin-bottom: 5%;
+    color: white;
+}
+
+.exposicoes {
+    height: 100vh;
+    padding: 6% 0px;
+}
+
+.exposicoes h3 {
+    font-family: Asap;
+    font-size: 3.5rem;
+}
+
+.image-exposicoes p {
+    font-family: Asap;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.sobre {
+    width: 100%;
+    background-color: black;
+}
+
+.sobre p {
+    font-family: Asap;
+    font-size: 1.3rem;
+    color: white;
+}
+
+.sobre h4 {
+    color: white;
+    font-family: Asap;
+    font-size: 2.5rem;
+}
+
+.contato {
+    padding: 6% 15%;
+}
+
+.contato h3 {
+    text-align: center;
+    font-family: Asap;
+    font-size: 3.5rem;
+    margin-bottom: 50px;
+}
+
 @media screen and (max-width: 768px) {
     .hidden-desktop {
         display: none;
@@ -64,13 +125,54 @@ html, body {
         display: flex;
         align-items: center;
         justify-content: center;
-        width: 100%;
-        height: 100%;
     }
 
     .first-image-mobile img {
         width: 90%;
         padding-top: 6%;
+    }
+
+    .ilustracao-mobile {
+        align-items: center;
+        //margin-top: 3%;
+        height: 100vh;
+    }
+
+    .murais-mobile {
+        padding-top: 12%;
+        background-color: black;
+    }
+
+    .murais-mobile h3 {
+        font-size: 2.8rem;
+    }
+
+    .exposicoes-mobile {
+        height: auto;
+        padding-top: 12%;
+    }
+
+    .exposicoes-mobile h3 {
+        font-size: 2.8rem;
+    }
+
+    .sobre-mobile {
+        padding-top: 12%;
+    }
+
+    .sobre-mobile p {
+        font-size: 1.3rem;
+    }
+
+    .sobre-mobile h3 {
+        font-size: 2.8rem;
+        color: white !important;
+        margin-bottom: 20px;
+    }
+
+    .img-sobre-mobile {
+        width: 100%;
+        margin-bottom: 15px;
     }
 }
 
@@ -91,13 +193,6 @@ html, body {
     }
 
     .first-image {
-        /*display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 100%;
-        height: 100%;
-        flex: 1;
-        margin-top: -5%;*/
         align-items: center;
 
     }
@@ -114,5 +209,26 @@ html, body {
 
     .carousel-image {
         width: 65% !important;
+    }
+
+    .container-fluid-desktop {
+        padding: 0px 5% !important;
+    }
+
+    .img-sobre-desktop {
+        float: left !important;
+        width: 45% !important;
+        margin-right: 1%;
+        margin-bottom: 1%;
+    }
+
+    .sobre {
+        padding-top: 6%;
+    }
+
+    .sobre h3 {
+        font-size: 3.5rem;
+        color: white;
+        margin-bottom: 45px;
     }
 }
