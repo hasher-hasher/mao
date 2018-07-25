@@ -30,6 +30,7 @@ a:visited {
 
 :target {
     font-weight: bold;
+    outline: none;
 }
 
 .main-header {
@@ -38,11 +39,11 @@ a:visited {
 
 .main-header img {
     width: 4%;
-    margin-left: 15%;
+    margin-left: 23%;
 }
 
 .main-header ul {
-    width: 30%;
+    // width: 40%;
     margin-right: 15%;
     list-style-type: none;
     //align-self: flex-end;
@@ -66,11 +67,12 @@ a:visited {
 }
 
 .header-brand-image {
-    width: 50% !important;
+    width: 100% !important;
 }
 
 .margin-left-brand {
     margin-left: 8%;
+    width: 4%;
 }
 
 .padding-murais {
@@ -210,7 +212,7 @@ color: #4c68d7;
     }
 
     .header-brand-image-mobile {
-        width: 40% !important;
+        width: 100% !important;
     }
 
     .first-image-mobile {
@@ -295,6 +297,9 @@ color: #4c68d7;
         text-align: center !important;
     }
 
+    .margin-left-brand-mobile {
+        width: 10%;
+    }
 }
 
 .social-links {
