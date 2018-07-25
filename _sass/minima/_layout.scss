@@ -13,7 +13,7 @@
     src: url('fonts/Octarine/Octarine-Light.otf');
 }
 
-$standard-font: Noir;
+$standard-font: Octarine;
 
 main {
     text-transform: uppercase;
@@ -22,6 +22,14 @@ main {
 html, body {
     width: 100%;
     min-height: 100vh;
+}
+
+a:visited {
+    color: pink;
+}
+
+:target {
+    font-weight: bold;
 }
 
 .main-header {
